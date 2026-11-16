@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --color-brand-pink-50: #fdf2f4;
+  --color-brand-pink-100: #fce7eb;
+  --color-brand-pink-200: #fbcfe8;
+  --color-brand-pink-500: #e11d48;
+  --color-brand-pink-600: #be185d;
+  --color-brand-pink-700: #9d174d;
+  --color-brand-gold: #c59b27;
+  --color-brand-gold-dark: #9a7314;
+  --color-brand-cream: #faf7f2;
+}
+
+/* Custom styling for luxury boutique feel */
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f8f6f6;
+}
+::-webkit-scrollbar-thumb {
+  background: #e2d7d9;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #cfbebe;
+}

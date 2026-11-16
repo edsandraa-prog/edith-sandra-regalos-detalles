@@ -1,0 +1,6 @@
+{
+  "name": "Edith Sandra – Regalos & Detalles",
+  "description": "Tienda online de regalos personalizados, arreglos florales, peluches, chocolates y detalles especiales en Ácora, Puno.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
